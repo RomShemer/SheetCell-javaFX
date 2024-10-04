@@ -1,0 +1,83 @@
+/* עיצוב כללי לתוויות (Label) */
+.label {
+    -fx-padding: 5;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-alignment: center-left;
+}
+
+/* עיצוב שדות הטקסט (TextField) */
+.text-field {
+    -fx-padding: 5;
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #666666;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+}
+
+/* כאשר הסמן נמצא מעל שדה הטקסט */
+.text-field:hover {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #333333;
+}
+
+/* כאשר שדה הטקסט בפוקוס */
+.text-field:focused {
+    -fx-border-color: #000000;
+}
+
+/* עיצוב הכותרת Label */
+.header-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+    -fx-padding: 5;
+}
+
+/* עיצוב כפתור הפעולה */
+.button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 10;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* כאשר הסמן מעל הכפתור */
+.button:hover {
+    -fx-background-color: #333333;
+}
+
+/* עיצוב תיבת הבחירה (ComboBox) */
+.combo-box {
+    -fx-padding: 3;
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #666666;
+    -fx-border-radius: 5;
+    -fx-font-size: 12px;
+    -fx-text-fill: #000000;
+}
+
+/* עיצוב הודעת הצלחה */
+.success-label {
+    -fx-text-fill: #28a745;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+    -fx-alignment: center;
+}
+
+/* עיצוב הודעת שגיאה */
+.error-label {
+    -fx-text-fill: #dc3545;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+    -fx-alignment: center;
+}

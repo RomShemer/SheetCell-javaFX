@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="mainContainer" spacing="20.0" stylesheets="@skinStyle/Default/sortPopUp.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.sortAndFilter.sort.SubSortPopUpController">
+   <children>
+        <HBox alignment="CENTER_LEFT" spacing="10">
+            <Label text="Sort by" />
+            <ComboBox fx:id="columnComboBox" prefWidth="100" />
+            <RadioButton fx:id="ascRadioButton" onAction="#AtoZColumnOrder" text="A to Z">
+            <toggleGroup>
+               <ToggleGroup fx:id="sortingOrder" />
+            </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="descRadioButton" onAction="#ZtoAColumnOrder" text="Z to A" toggleGroup="$sortingOrder" />
+        </HBox>
+        <Button fx:id="addSortColumnButton" onAction="#addSortColumn" prefWidth="200.0" text="Add another sort column" />
+   </children>
+</VBox>

@@ -1,0 +1,173 @@
+/* עיצוב כללי ל-VBox */
+.vbox {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0.5, 0, 0);
+}
+
+/* עיצוב MenuButton */
+.menu-button {
+    -fx-font-size: 12px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-padding: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #cccccc;
+}
+
+.menu-item {
+    -fx-font-size: 12px;
+    -fx-padding: 5;
+}
+
+/* עיצוב Label */
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a73e8; /* צבע כחול */
+    -fx-font-size: 13px;
+}
+
+/* עיצוב TextField */
+.text-field {
+    -fx-font-size: 12px;
+    -fx-padding: 8;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #cccccc;
+}
+
+/* עיצוב ScrollPane */
+.scroll-pane {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* עיצוב ListView */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* עיצוב הפריטים ב-ListView */
+.list-cell {
+    -fx-padding: 5 10;
+    -fx-font-size: 12px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-style: solid;
+    -fx-border-color: #eeeeee;
+}
+
+/* עיצוב כפתורים */
+/* עיצוב כפתורים */
+.button {
+    -fx-font-size: 13px;
+    -fx-padding: 6;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #4CAF50; /* צבע ירוק */
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button:pressed {
+    -fx-background-color: #388e3c;
+}
+
+.button.cancel {
+    -fx-background-color: #f44336; /* צבע אדום */
+}
+
+.button.cancel:hover {
+    -fx-background-color: #e53935;
+}
+
+.button.cancel:pressed {
+    -fx-background-color: #d32f2f;
+}
+
+/* כפתור Clear */
+.button#clearSelectionButton {
+    -fx-background-color: #5288cf; /* צבע כחול */
+    -fx-text-fill: #ffffff;
+    -fx-alignment: Center;
+}
+
+.button#clearSelectionButton:hover {
+    -fx-background-color: #2e78dc;
+}
+
+.button#clearSelectionButton:pressed {
+    -fx-background-color: #2d5885;
+}
+
+/* כפתור Select All */
+.button#selectAllButton {
+    -fx-background-color: #5cb85c; /* צבע ירוק */
+    -fx-text-fill: #ffffff;
+    -fx-alignment: CENTER;
+}
+
+.button#selectAllButton:hover {
+    -fx-background-color: #4cae4c;
+}
+
+.button#selectAllButton:pressed {
+    -fx-background-color: #449d44;
+}
+
+/* עיצוב ל-ToolBar */
+.tool-bar {
+    -fx-border-color: #8A8A8A; /* צבע מסגרת אפור כהה */
+    -fx-border-width: 2px; /* רוחב המסגרת */
+    -fx-border-radius: 5px; /* פינות מעוגלות */
+    -fx-padding: 5px; /* ריווח פנימי */
+    -fx-background-color: transparent; /* רקע שקוף */
+}
+
+/* עיצוב הכפתורים המיוחדים (Clear all, Select all) */
+.special-button {
+    -fx-background-color: linear-gradient(#4CAF50, #2E7D32); /* צבע רקע מדורג */
+    -fx-text-fill: white; /* צבע הטקסט */
+    -fx-font-weight: bold; /* טקסט מודגש */
+    -fx-border-color: #4CAF50; /* צבע גבול */
+    -fx-border-radius: 5px; /* פינות מעוגלות */
+    -fx-background-radius: 3px; /* פינות מעוגלות לרקע */
+    -fx-padding: 1px 10px; /* ריווח פנימי */
+}
+
+.special-button:hover {
+    -fx-background-color: linear-gradient(#66BB6A, #388E3C); /* שינוי צבע רקע בהזזת עכבר */
+    -fx-border-color: #388E3C; /* שינוי צבע גבול בהזזת עכבר */
+    -fx-cursor: hand; /* שינוי סמן העכבר ליד */
+}
+
+.clear-button {
+    -fx-background-color: #1E88E5; /* רקע כחול */
+    -fx-text-fill: white; /* טקסט לבן */
+    -fx-border-color: #1565C0; /* צבע גבול */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 15px;
+}
+
+/* אפקט hover לכפתור Clear */
+.clear-button:hover {
+    -fx-background-color: #42A5F5; /* רקע כחול בהיר יותר */
+    -fx-border-color: #1E88E5; /* גבול כהה יותר */
+}
+
+/* הוספת ריווח פנימי לכפתור הסינון */
+.stack-pane-filter-button {
+    -fx-padding: 0 4 2 0; /* ריווח מימין */
+}

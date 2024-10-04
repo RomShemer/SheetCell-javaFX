@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+}
+
+/* הודעת שגיאה */
+.error-message {
+    -fx-background-color: #4e2d2d; /* רקע אדום כהה */
+    -fx-border-color: #722f37; /* גבול אדום כהה */
+    -fx-text-fill: #f5c6cb; /* טקסט אדום בהיר */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* הודעת הצלחה */
+.success-message {
+    -fx-background-color: #284f2f; /* רקע ירוק כהה */
+    -fx-border-color: #3e7045; /* גבול ירוק כהה */
+    -fx-text-fill: #c3e6cb; /* טקסט ירוק בהיר */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* הודעת מידע */
+.info-message {
+    -fx-background-color: #2d3e48; /* רקע כחול כהה */
+    -fx-border-color: #476d83; /* גבול כחול כהה */
+    -fx-text-fill: #bee5eb; /* טקסט כחול בהיר */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}

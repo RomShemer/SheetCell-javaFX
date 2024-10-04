@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppController">
+   <top>
+      <VBox prefHeight="121.0" prefWidth="750.0" BorderPane.alignment="CENTER">
+         <children>
+            <fx:include fx:id="headerComponent" source="topBarNew.fxml" />
+            <fx:include fx:id="actionLineComponent" source="subTolBarTop.fxml" VBox.vgrow="ALWAYS" />
+            <fx:include fx:id="sortAndFilterComponent" source="SortAndFilter.fxml" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </top>
+   <center>
+      <TabPane fx:id="centerTabPane" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="firstTab">
+            <content>
+                  <ScrollPane fx:id="sheetComponent" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </center>
+   <left>
+      <VBox fx:id="leftVbox" minHeight="260.0" minWidth="260.0" prefHeight="600.0" prefWidth="290.0" BorderPane.alignment="CENTER">
+         <children>
+            <SplitPane dividerPositions="0.6" orientation="VERTICAL" prefWidth="290.0" VBox.vgrow="ALWAYS">
+              <items>
+                  <fx:include fx:id="commandsComponent" prefHeight="310.0" source="newCommands.fxml" />
+                  <fx:include fx:id="rangesComponent" minHeight="200.0" prefHeight="270.0" source="Ranges.fxml" />
+              </items>
+            </SplitPane>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

@@ -1,0 +1,16 @@
+/* עיצוב Vibrant Mode */
+.hbox {
+    -fx-background-color: #ffe500;  /* רקע צהוב */
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-text-fill: #ff5733;  /* טקסט בצבע כתום-אדום */
+    -fx-font-size: 14px;
+}
+
+.checkbox {
+    -fx-background-color: transparent;
+    -fx-border-color: #34a4eb;  /* גבול בצבע כחול */
+    -fx-text-fill: #2ecc71;  /* טקסט בצבע ירוק */
+}

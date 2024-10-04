@@ -1,0 +1,14 @@
+
+.tab-pane .tab-header-area {
+    -fx-background-color: #ff748a;  /* רקע כהה לכותרות הטאבים */
+}
+
+/* עיצוב הכרטיסיות עצמן */
+.tab-pane .tab {
+    -fx-background-color: #ff748a;  /* רקע כהה לכותרות הטאבים */
+}
+
+/* עיצוב אזור התוכן */
+.tab-pane .tab-content-area {
+    -fx-background-color: white;  /* רקע כהה לכותרות הטאבים */
+}

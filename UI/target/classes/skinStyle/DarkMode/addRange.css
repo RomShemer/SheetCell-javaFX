@@ -1,0 +1,72 @@
+.root {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+}
+
+/* עיצוב כללי לטופס */
+.grid-pane {
+    -fx-padding: 20;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-width: 1px;
+}
+
+/* עיצוב לכותרות */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* עיצוב לשדות טקסט */
+.text-field {
+    -fx-font-size: 13px;
+    -fx-padding: 5 10;
+    -fx-border-color: #2e2e2e;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #777777;
+}
+
+.text-field:focused {
+    -fx-border-color: rgba(53, 75, 126, 0.93);  /* צבע מסגרת ירוק כששדה הטקסט בפוקוס */
+    -fx-border-width: 2;
+}
+
+/* עיצוב לכפתורי רדיו (RadioButton) */
+.radio-button {
+    -fx-font-size: 12px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5 0;
+}
+
+/* עיצוב לכפתורים */
+.button {
+    -fx-background-color: #206e20;  /* צבע רקע ירוק לכפתורים */
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5 15;
+    -fx-wrap-text: true;  /* Ensures text wraps within the button */
+    -fx-text-alignment: center;  /* Centers the text vertically and horizontally */
+    -fx-alignment: center;  /* Centers the text within the button */
+}
+
+.button:hover {
+    -fx-background-color: #45a049;  /* צבע כהה יותר בעת ריחוף */
+}
+
+/* עיצוב לכפתור ביטול */
+.button-cancel {
+    -fx-background-color: #f44336;  /* צבע רקע אדום */
+    -fx-text-fill: white;
+}
+
+.button-cancel:hover {
+    -fx-background-color: #d32f2f;  /* צבע כהה יותר בעת ריחוף */
+}

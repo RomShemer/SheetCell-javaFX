@@ -1,0 +1,133 @@
+.GridPane {
+    -fx-background-color: grey;
+}
+
+/* עיצוב כללי לתאים */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";  /* פונט רגיל לתאים */
+    -fx-font-weight: normal;   /* לא מודגש */
+    -fx-border-style: solid;    /* מסגרת קבועה */
+    -fx-border-color: #d0d0d0;  /* קו הפרדה */
+    -fx-border-width: 1;        /* רוחב קו אחיד ועדין */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 3, 0, 2, 2);
+    -fx-padding: 10px 15px;
+    -fx-background-color: #b6b6b6; /* צבע רקע כהה */
+}
+
+.label.wrap {
+    -fx-wrap-text: true; /* ביצוע wrap לטקסט */
+}
+
+.label.clip {
+    -fx-wrap-text: false; /* ביצוע wrap לטקסט */
+    -fx-text-overrun: ELLIPSIS; /* חותך טקסט שחורג מגבול התא */
+}
+
+.label.center{
+    -fx-alignment: center;
+}
+
+.label.right{
+    -fx-alignment: center-right;
+}
+
+.label.left{
+    -fx-alignment: center-left;
+}
+
+.header {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;         /* פונט גדול יותר */
+    -fx-font-family: "Georgia";  /* פונט שונה לכותרות */
+    -fx-font-weight: bold;       /* מודגש */
+    -fx-alignment: center;
+    -fx-background-color: #474747;
+    -fx-border-color: #b0b0b0;    /* קו מסגרת עדין */
+    -fx-border-color: #5e5e5e;
+    -fx-border-style: solid;      /* קו רציף */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 3, 0, 2, 2);
+}
+
+/* אפקט hover לכותרות עמודות ושורות */
+.header:hover {
+    -fx-background-color: rgb(71, 78, 76);
+    -fx-effect: innershadow(three-pass-box, rgb(55, 63, 87), 5, 0, 1, 1); /* צל פנימי */
+    -fx-cursor: hand; /* מצביע העכבר משתנה ליד */
+}
+
+/* אפקט hover לכותרות */
+.header-label:hover{
+    -fx-effect: dropshadow(gaussian, rgb(20, 40, 83), 20, 0.2, 2, 2); /* מוסיף צל */
+    -fx-border-color: rgba(47, 59, 89, 0.93); /* שינוי צבע הגבול בלבד */
+    -fx-cursor: hand; /* מצביע העכבר משתנה ליד */
+    -fx-border-width: 5;
+}
+
+/* אפקט hover כאשר סמן העכבר מעל תא רגיל */
+.label:hover {
+    -fx-effect: dropshadow(gaussian, rgb(49, 55, 74), 20, 0.2, 2, 2); /* מוסיף צל */
+    -fx-border-color: rgba(70, 80, 108, 0.93); /* שינוי צבע הגבול בלבד */
+    -fx-cursor: hand; /* מצביע העכבר משתנה ליד */
+    -fx-border-width: 5;
+}
+
+/* אפקט highlight לתא שנבחר */
+.label.highlight {
+    -fx-effect: dropshadow(gaussian, rgb(112, 119, 136), 20, 0.2, 2, 2); /* מוסיף צל */
+    -fx-border-width: 5;
+}
+
+
+.highlight-Range {
+    -fx-effect: dropshadow(gaussian, rgb(63, 43, 161), 20, 0.2, 2, 2); /* מוסיף צל */
+    -fx-border-width: 3;
+    -fx-border-color: #57555e;
+    -fx-border-style: dashed;
+}
+
+.highlight-Range-ReadOnly{
+    -fx-background-color: rgb(229, 240, 255); /* רקע ירוק בהיר עם שקיפות 50% */
+    -fx-border-color: rgba(134, 158, 182, 0.93);
+    -fx-border-width: 2;
+}
+
+.highlight-Filter-Range{
+    -fx-background-color: rgb(187, 174, 198); /* רקע ירוק בהיר עם שקיפות 50% */
+}
+
+.label.highlight-Range-selected {
+    -fx-background-color: #b2a2c8;
+}
+
+
+.label.highlightInfluentedCells {
+    -fx-background-color: rgb(156, 177, 156); /* רקע ירוק בהיר עם שקיפות 50% */
+    -fx-border-color: #67b16b;
+    -fx-border-width: 5;
+}
+
+.label.highlightDependedCells {
+    -fx-background-color: rgb(134, 168, 159); /* רקע טורקיז בהיר עם שקיפות 50% */
+    -fx-border-color: #73bcbc;
+    -fx-border-width: 5;
+}
+
+/* עיצוב כפתור הסינון */
+.filter-button {
+    -fx-text-fill: #432a61;      /* צבע טקסט כחול לכותרות */
+    -fx-background-color: transparent; /* שקיפות רקע */
+    -fx-border-color: transparent; /* ללא גבול בכפתור */
+    -fx-padding: 0; /* ללא ריווח פנימי */
+    -fx-alignment: center-right;
+}
+
+.filter-button:hover {
+    -fx-background-color: #d0d0d0; /* רקע מעט כהה יותר בזמן hover */
+    -fx-border-color: #8f8f8f; /* גבול כהה יותר בזמן hover */
+}
+
+/* הוספת ריווח פנימי לכפתור הסינון */
+.stack-pane-filter-button {
+    -fx-padding: 0 4 2 0; /* ריווח מימין */
+}

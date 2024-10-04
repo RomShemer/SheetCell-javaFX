@@ -1,0 +1,104 @@
+/* עיצוב כללי לתוויות (Label) */
+.label {
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-alignment: center-left;
+}
+
+/* עיצוב לשדות הטקסט (TextField) */
+.text-field {
+    -fx-padding: 8;
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #34495e;
+}
+
+/* שדה טקסט במצב hover */
+.text-field:hover {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #7f8c8d;
+}
+
+/* שדה טקסט במצב focus */
+.text-field:focused {
+    -fx-border-color: #2980b9;
+    -fx-background-color: #ffffff;
+}
+
+/* עיצוב תיבת הבחירה (ComboBox) */
+.combo-box {
+    -fx-padding: 5;
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #34495e;
+}
+
+/* ComboBox במצב hover */
+.combo-box:hover {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #7f8c8d;
+}
+
+/* עיצוב הכפתורים */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* אפקט hover על כפתור */
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* עיצוב הודעת ההצלחה */
+.success-label {
+    -fx-text-fill: #27ae60;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 5;
+}
+
+/* עיצוב הודעת השגיאה */
+.error-label {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 5;
+}
+
+/* עיצוב כללי עבור CheckBox */
+.check-box {
+    -fx-padding: 5;
+    -fx-font-family: "Verdana";
+    -fx-font-size: 12px;
+    -fx-text-fill: #2c3e50;
+}
+
+/* CheckBox במצב hover */
+.check-box:hover {
+    -fx-text-fill: #2980b9;
+}
+
+/* אפקט על התוויות בזמן hover */
+.label:hover {
+    -fx-text-fill: #2980b9;
+}
+
+/* רקע עבור תיבת הבחירה המורחבת (Popup של ComboBox) */
+.combo-box .list-view {
+    -fx-background-color: #ecf0f1;
+}

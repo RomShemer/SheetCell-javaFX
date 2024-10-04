@@ -1,0 +1,157 @@
+/* בסיס לעיצוב כללי של התוויות, הכפתורים, ותיבת הדו-שיח */
+.root {
+    -fx-background-color: #F7F7F7;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-font-family: Arial, sans-serif;
+}
+
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.combo-box {
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+}
+
+.button:hover {
+    -fx-background-color: #45A049;
+}
+
+.button:pressed {
+    -fx-background-color: #3E8E41;
+}
+
+.radio-button {
+    -fx-text-fill: #333333;
+}
+
+.radio-button:selected {
+    -fx-text-fill: #4CAF50;
+}
+
+.check-box {
+    -fx-text-fill: #333333;
+}
+
+.check-box:selected {
+    -fx-text-fill: #4CAF50;
+}
+
+/* עיצוב כפתור הביטול */
+#cancelButton {
+    -fx-background-color: #F44336;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#cancelButton:hover {
+    -fx-background-color: #E53935;
+}
+
+#cancelButton:pressed {
+    -fx-background-color: #D32F2F;
+}
+
+/* עיצוב כפתור המיון */
+#sortButton {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#sortButton:hover {
+    -fx-background-color: #1E88E5;
+}
+
+#sortButton:pressed {
+    -fx-background-color: #1976D2;
+}
+
+/* ריווח פנימי */
+.hbox {
+    -fx-spacing: 15px;
+    -fx-padding: 10px;
+}
+
+.vbox {
+    -fx-spacing: 20px;
+    -fx-padding: 10px;
+}
+
+
+.toggle-button {
+    -fx-background-color: lightgray;
+    -fx-background-radius: 30;
+    -fx-padding: 5;
+    -fx-text-fill: gray;
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+    -fx-background-insets: 0;
+    -fx-pref-height: 30px;
+    -fx-cursor: hand;
+}
+
+.label.toggle-button {
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";  /* פונט רגיל לתאים */
+    -fx-text-fill: gray;
+    -fx-font-weight: bold;   /* לא מודגש */
+    -fx-padding: 1px 2px 0px 2px; /* ריווח מימין ומשמאל */
+    -fx-background-color: transparent;
+}
+
+.label.toggle-button.selected {
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";  /* פונט רגיל לתאים */
+    -fx-font-weight: bold;   /* לא מודגש */
+    -fx-padding: 1px 2px 0px 2px; /* ריווח מימין ומשמאל */
+    -fx-background-color: transparent;
+    -fx-text-fill: grey;
+}
+
+
+.toggle-button:selected {
+    -fx-background-color: rgba(8, 104, 8, 0.79);
+
+    -fx-background-radius: 30;
+}
+
+/* עיצוב עיגול הזזה (החלק הנע) */
+.circle {
+    -fx-background-color: white;     /* רקע לבן בתוך העיגול */
+    -fx-background-radius: 13;       /* עיגול מלא */
+    -fx-pref-width: 15px;            /* רוחב מעודכן */
+    -fx-pref-height: 15px;           /* גובה מעודכן */
+    -fx-translate-y: 0px;           /* התאמה למיקום - מעלה את העיגול */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 2, 0.2, 1, 1); /* אפקט צל עדין יותר */
+    -fx-border-color: rgba(228, 228, 228, 0.5); /* מסגרת כסופה שקופה */
+    -fx-border-width: 1px;         /* מסגרת דקה יותר */
+    -fx-alignment: center-right;
+}
+
+.circle:selected {
+    -fx-background-color: white; /* צבע רקע ירוק בהיר */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 2, 0.2, 1, 1); /* אפקט צל עדין יותר */
+    -fx-border-color: rgba(136, 135, 135, 0.5); /* מסגרת כסופה שקופה */
+    -fx-border-width: 1.5px;               /* מסגרת עבה יותר */
+    -fx-translate-x: 20px; /* הזזה קלה ימינה (או שמאלה, תלוי בכיוון ההפעלה) */
+    -fx-alignment: center-left;
+}

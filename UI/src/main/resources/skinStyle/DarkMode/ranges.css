@@ -1,0 +1,125 @@
+/* General ScrollPane Styling */
+.scroll-pane {
+    -fx-background-color: rgba(124, 124, 124, 0.9);  /* רקע כהה */
+    -fx-background:  rgba(124, 124, 124, 0.9);        /* רקע עבור תכולת ה-ScrollPane */
+    -fx-border-color: #616161;      /* צבע גבול */
+    -fx-border-width: 2px;          /* עובי גבול */
+    -fx-border-radius: 5px;         /* פינות מעוגלות */
+}
+
+/* VBox and HBox Padding */
+.vbox, .hbox {
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-background-color: #858585;  /* רקע כהה */
+}
+
+/* Buttons */
+.button {
+    -fx-text-fill: white;  /* טקסט לבן */
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8 15;
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+
+/* Add Button - Green */
+.green-button {
+    -fx-background-color: #388e3c;
+}
+
+.green-button:hover {
+    -fx-background-color: #2e7d32;
+}
+
+/* Delete Button - Red */
+.red-button {
+    -fx-background-color: #d32f2f;
+}
+
+/* Delete Button - Red */
+.red-stop-button {
+    -fx-background-color: rgba(251, 102, 92, 0.91);  /* Red background */
+    -fx-font-size: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 3;
+}
+
+.red-button:hover {
+    -fx-background-color: #b71c1c;
+}
+
+/* View Button - Blue */
+.blue-button {
+    -fx-background-color: #1976d2;
+}
+
+.blue-button:hover {
+    -fx-background-color: #1565c0;
+}
+
+/* GridPane for TableView and Details */
+.grid-pane {
+    -fx-padding: 20;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-background-color: #777777;
+    -fx-border-color: #616161;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 12px;
+    -fx-text-fill: black; /* טקסט לבן בהיר */
+}
+
+/* Text Fields */
+.text-field {
+    -fx-border-color: #757575;
+    -fx-background-color: #333333;
+    -fx-text-fill: black;
+}
+
+.text-field:focused {
+    -fx-border-color: #4caf50;
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-background-color: #7c7c7c;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.3, 2, 2);
+    -fx-border-color: #616161;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #6c6c6c;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #b6b6b6;
+}
+
+.table-view .table-row-cell:filled:selected {
+    -fx-background-color: rgba(72, 125, 216, 0.93);
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: rgba(40, 55, 117, 0.93);
+}
+
+/* Button inside the Details Pane */
+#rangeDetailsPane .button {
+    -fx-background-color: #d32f2f;
+}
+
+#rangeDetailsPane .button:hover {
+    -fx-background-color: #b71c1c;
+}

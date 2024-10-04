@@ -1,0 +1,20 @@
+.context-menu {
+    -fx-background-color: rgb(255, 235, 59); /* רקע צהוב בוהק */
+    -fx-text-fill: black;                    /* צבע טקסט שחור */
+    -fx-font-size: 12px;                     /* גודל גופן */
+    -fx-border-color: #ff5722;               /* צבע גבול כתום */
+    -fx-effect: dropshadow(gaussian, rgb(255, 152, 0), 20, 0.2, 2, 2); /* צל כתום בהיר */
+    -fx-border-width: 2px;                   /* עובי גבול */
+    -fx-padding: 10px;                       /* ריווח פנימי */
+    -fx-background-radius: 5px;              /* פינות מעוגלות */
+    -fx-border-radius: 5px;                  /* פינות מעוגלות לגבול */
+}
+
+.context-menu .menu-item {
+    -fx-text-fill: black;                    /* צבע טקסט שחור */
+    -fx-font-size: 12px;                     /* גודל גופן */
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: rgb(255, 87, 34);  /* צבע רקע כתום כהה בזמן ריחוף */
+}

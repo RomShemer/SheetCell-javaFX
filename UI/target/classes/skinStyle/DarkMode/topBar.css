@@ -1,0 +1,102 @@
+.scroll-pane {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+    -fx-background:  rgba(202, 202, 202, 0.9);        /* רקע עבור תכולת ה-ScrollPane */
+    -fx-border-color: rgba(158, 158, 158, 0.9);      /* צבע גבול */
+    -fx-border-width: 0.5;
+}
+
+.button {
+    -fx-background-color: #3e3e3e;   /* רקע כהה */
+    -fx-text-fill: white;            /* צבע טקסט לבן */
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 1); /* אפקט הצללה כהה */
+}
+
+.button:hover {
+    -fx-background-color: #5c5c5c;  /* צבע כהה יותר בזמן hover */
+}
+
+.button:pressed {
+    -fx-background-color: #292929; /* צבע כהה יותר בלחיצה */
+    -fx-effect: none;              /* ביטול אפקט הצללה */
+}
+
+.text-field {
+    -fx-background-color: #444;      /* רקע כהה */
+    -fx-text-fill: #dcdcdc;          /* טקסט בהיר */
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-border-color: #666;          /* גבול כהה */
+    -fx-border-radius: 5;
+    -fx-padding: 3;
+}
+
+.text-field:hover {
+    -fx-background-color: #555;      /* רקע כהה יותר */
+    -fx-border-color: #888;          /* גבול בהיר יותר */
+}
+
+.text-field:focused {
+    -fx-border-color: #007fff;       /* גבול כחול */
+    -fx-background-color: #555;
+}
+
+.file-chooser {
+    -fx-background-color: #333;      /* רקע כהה */
+    -fx-text-fill: #fff;             /* טקסט לבן */
+    -fx-padding: 10;
+}
+
+/* עיצוב MenuButton */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-border-color:  #333333;
+    -fx-border-width: 2px;               /* עובי המסגרת עבה יותר */
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 2px 2px;
+}
+
+/* עיצוב hover */
+.menu-button:hover {
+    -fx-background-color: #444444;   /* רקע כהה יותר בזמן ריחוף */
+}
+
+/* עיצוב MenuItem */
+.menu-item {
+    -fx-background-color: #444444;   /* רקע כהה */
+    -fx-text-fill: white;            /* צבע טקסט לבן */
+    -fx-font-size: 12px;
+}
+
+.menu-item:hover {
+    -fx-background-color: #555555;   /* רקע כהה יותר בזמן ריחוף */
+}
+
+.toggle-button {
+    -fx-background-color: #b8b8b8;
+    -fx-background-radius: 7;
+    -fx-text-fill: black;
+    -fx-border-color: #333333;             /* מסגרת ירוקה */
+    -fx-border-width: 2px;               /* עובי המסגרת עבה יותר */
+    -fx-font-size: 12px;             /* גודל טקסט */
+    -fx-font-family: "Arial";        /* פונט טקסט */
+    -fx-font-weight: bold;           /* טקסט מודגש */
+    -fx-border-radius: 7;            /* פינות מעוגלות */
+    -fx-cursor: hand;                /* סמן עכבר על לחצן */
+    -fx-padding: 5px 5px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: rgb(33, 96, 0);
+    -fx-text-fill: black;
+    -fx-border-color: #535353;
+}

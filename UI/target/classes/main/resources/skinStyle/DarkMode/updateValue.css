@@ -1,0 +1,96 @@
+.root {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+}
+
+
+.grid-pane {
+    -fx-background-color: rgba(124, 124, 124, 0.9);  /* רקע כהה עם שקיפות */
+    -fx-border-color: #616161;      /* צבע גבול */
+    -fx-border-width: 2px;          /* עובי גבול */
+    -fx-border-radius: 5px;         /* פינות מעוגלות */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.3, 0, 2); /* אפקט צל */
+    -fx-pref-width: 100%;           /* רוחב מלא */
+    -fx-pref-height: 100%;          /* גובה מלא */
+}
+
+
+.label {
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-fill: black; /* טקסט בהיר */
+    -fx-background-color: transparent;  /* רקע שקוף */
+    -fx-alignment: center-left;
+}
+
+.text-field {
+    -fx-padding: 8;
+    -fx-background-color: #8c8c8c; /* רקע כהה */
+    -fx-border-color: #5d636e;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: black; /* טקסט בהיר */
+}
+
+.text-field:hover {
+    -fx-background-color: #6a7b87; /* רקע כהה יותר */
+    -fx-border-color: #425763;
+}
+
+.text-field:focused {
+    -fx-border-color: #39465e; /* גבול כחול בהיר */
+    -fx-background-color: #6a7b87;
+}
+
+.combo-box {
+    -fx-padding: 5;
+    -fx-background-color: rgba(163, 163, 163, 0.96);
+    -fx-border-color: rgba(128, 128, 128, 0.96);
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+.combo-box:hover {
+    -fx-background-color: #34495e;
+    -fx-border-color: #7f8c8d;
+}
+
+.button {
+    -fx-background-color: rgba(21, 34, 101, 0.93);
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #203865;
+}
+
+.success-label {
+    -fx-text-fill: #2ecc71; /* טקסט ירוק בהיר */
+}
+
+.error-label {
+    -fx-text-fill: #e74c3c; /* טקסט אדום */
+}
+
+.check-box {
+    -fx-text-fill: #373737; /* טקסט בהיר */
+}
+
+.check-box:hover {
+    -fx-text-fill: #2980b9;
+}
+
+.label:hover {
+    -fx-text-fill: #3498db; /* טקסט כחול בהיר */
+}
+
+.combo-box .list-view {
+    -fx-background-color: rgba(163, 163, 163, 0.96);
+}

@@ -1,0 +1,21 @@
+/* עיצוב כללי ל-ProgressBar */
+.progress-bar {
+    -fx-accent: #999999; /* צבע אפור כהה להתקדמות */
+    -fx-control-inner-background: #f0f0f0; /* רקע אפור בהיר */
+    -fx-background-insets: 0; /* אין שוליים */
+    -fx-background-radius: 20; /* פינות עגולות */
+    -fx-padding: 5; /* מרווח פנימי */
+    -fx-border-color: #cccccc; /* צבע מסגרת אפור */
+    -fx-border-width: 2; /* עובי מסגרת */
+    -fx-border-radius: 20; /* פינות עגולות של המסגרת */
+}
+
+/* אפקט hover */
+.progress-bar:hover {
+    -fx-accent: #666666; /* צבע אפור כהה יותר בזמן hover */
+}
+
+/* אפקט טעינה מהירה */
+.progress-bar:indeterminate {
+    -fx-accent: #555555; /* צבע אפור כהה יותר בזמן טעינה ללא חישוב */
+}

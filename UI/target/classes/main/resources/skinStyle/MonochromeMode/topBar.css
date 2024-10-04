@@ -1,0 +1,96 @@
+.button {
+    -fx-background-color: #999;      /* רקע אפור */
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1); /* אפקט הצללה עדין */
+}
+
+.button:hover {
+    -fx-background-color: #666;      /* צבע כהה יותר בזמן hover */
+}
+
+.button:pressed {
+    -fx-background-color: #333;      /* צבע כהה יותר בלחיצה */
+    -fx-effect: none;
+}
+
+.text-field {
+    -fx-background-color: #f0f0f0;   /* רקע מונוכרום */
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-border-color: #bbb;          /* גבול אפור */
+    -fx-border-radius: 5;
+    -fx-padding: 3;
+}
+
+.text-field:hover {
+    -fx-background-color: #ffffff;   /* רקע לבן */
+    -fx-border-color: #888;
+}
+
+.text-field:focused {
+    -fx-border-color: #999;          /* גבול כהה יותר */
+    -fx-background-color: #ffffff;
+}
+
+.file-chooser {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #333;
+    -fx-padding: 10;
+}
+
+/* עיצוב MenuButton */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-border-color: #474747;             /* מסגרת ירוקה */
+    -fx-border-width: 2px;               /* עובי המסגרת עבה יותר */
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-border-color: black;         /* מסגרת שחורה */
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 2px 2px;
+}
+
+/* עיצוב hover */
+.menu-button:hover {
+    -fx-background-color: #dddddd;   /* רקע אפור בהיר יותר */
+}
+
+/* עיצוב MenuItem */
+.menu-item {
+    -fx-background-color: #ffffff;   /* רקע לבן */
+    -fx-text-fill: black;            /* צבע טקסט שחור */
+    -fx-font-size: 12px;
+}
+
+.menu-item:hover {
+    -fx-background-color: #eeeeee;   /* רקע אפור בהיר בזמן ריחוף */
+}
+
+.toggle-button {
+    -fx-background-color: #b8b8b8;
+    -fx-background-radius: 7;
+    -fx-text-fill: black;
+    -fx-border-color: #474747;             /* מסגרת ירוקה */
+    -fx-border-width: 2px;               /* עובי המסגרת עבה יותר */
+    -fx-font-size: 12px;             /* גודל טקסט */
+    -fx-font-family: "Arial";        /* פונט טקסט */
+    -fx-font-weight: bold;           /* טקסט מודגש */
+    -fx-border-radius: 7;            /* פינות מעוגלות */
+    -fx-cursor: hand;                /* סמן עכבר על לחצן */
+    -fx-padding: 5px 5px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: rgba(2, 189, 2, 0.79);
+    -fx-text-fill: white;
+    -fx-border-color: #535353;
+}

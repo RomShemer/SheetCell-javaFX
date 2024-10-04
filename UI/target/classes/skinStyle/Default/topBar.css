@@ -1,0 +1,103 @@
+/* עיצוב כללי עבור לחצנים (Button) */
+.button {
+    -fx-background-color: #007c00;   /* רקע כחול */
+    -fx-text-fill: white;            /* צבע טקסט לבן */
+    -fx-font-size: 12px;             /* גודל טקסט */
+    -fx-font-family: "Arial";        /* פונט טקסט */
+    -fx-font-weight: bold;           /* טקסט מודגש */
+    -fx-border-radius: 5;            /* פינות מעוגלות */
+    -fx-cursor: hand;                /* סמן עכבר על לחצן */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 1); /* אפקט הצללה */
+}
+
+/* אפקט hover עבור לחצן */
+.button:hover {
+    -fx-background-color: #54ed49;  /* רקע כחול כהה יותר */
+}
+
+/* אפקט לחיצה */
+.button:pressed {
+    -fx-background-color: #006301; /* צבע כהה יותר בלחיצה */
+    -fx-effect: none;              /* ביטול אפקט הצללה */
+}
+
+/* עיצוב עבור שדה טקסט (TextField) */
+.text-field {
+    -fx-background-color: #ecf0f1;   /* רקע בהיר */
+    -fx-text-fill: #34495e;          /* צבע טקסט כהה */
+    -fx-font-size: 14px;             /* גודל טקסט */
+    -fx-font-family: "Arial";        /* פונט טקסט */
+    -fx-border-color: #bdc3c7;       /* גבול בהיר */
+    -fx-border-radius: 5;            /* פינות מעוגלות */
+    -fx-padding: 3;               /* ריפוד פנימי */
+}
+
+/* שדה טקסט במצב hover */
+.text-field:hover {
+    -fx-background-color: #ffffff;   /* רקע לבן */
+    -fx-border-color: #7f8c8d;       /* גבול כהה יותר */
+}
+
+/* שדה טקסט במצב focus */
+.text-field:focused {
+    -fx-border-color: #2980b9;       /* גבול כחול */
+    -fx-background-color: #ffffff;   /* רקע לבן */
+}
+
+/* עיצוב עבור חלון FileChooser */
+.file-chooser {
+    -fx-background-color: #ecf0f1;   /* רקע בהיר */
+    -fx-font-family: "Arial";        /* פונט טקסט */
+    -fx-text-fill: #34495e;          /* צבע טקסט כהה */
+    -fx-padding: 10;                 /* ריפוד פנימי */
+}
+
+/* עיצוב MenuButton */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-border-color: green;             /* מסגרת ירוקה */
+    -fx-border-width: 2px;               /* עובי המסגרת עבה יותר */
+    -fx-font-size: 12px;             /* גודל טקסט */
+    -fx-font-family: "Arial";        /* פונט טקסט */
+    -fx-font-weight: bold;           /* טקסט מודגש */
+    -fx-border-radius: 5;            /* פינות מעוגלות */
+    -fx-cursor: hand;                /* סמן עכבר על לחצן */
+    -fx-padding: 2px 2px;
+}
+
+/* עיצוב hover */
+.menu-button:hover {
+    -fx-background-color: #cde1cb;   /* רקע ירוק בהיר */
+}
+
+/* עיצוב MenuItem */
+.menu-item {
+    -fx-background-color: #ecf0f1;   /* רקע בהיר */
+    -fx-text-fill: #2c3e50;          /* צבע טקסט כהה */
+    -fx-font-size: 12px;
+}
+
+.menu-item:hover {
+    -fx-background-color: #d1d1d1;   /* רקע כהה יותר בזמן ריחוף */
+}
+
+.toggle-button {
+    -fx-background-color: #b8b8b8;
+    -fx-background-radius: 7;
+    -fx-text-fill: black;
+    -fx-border-color: green;             /* מסגרת ירוקה */
+    -fx-border-width: 2px;               /* עובי המסגרת עבה יותר */
+    -fx-font-size: 12px;             /* גודל טקסט */
+    -fx-font-family: "Arial";        /* פונט טקסט */
+    -fx-font-weight: bold;           /* טקסט מודגש */
+    -fx-border-radius: 7;            /* פינות מעוגלות */
+    -fx-cursor: hand;                /* סמן עכבר על לחצן */
+    -fx-padding: 5px 5px;
+}
+
+.toggle-button:selected {
+    -fx-background-color: rgba(2, 189, 2, 0.79);
+    -fx-text-fill: white;
+    -fx-border-color: #535353;
+}

@@ -1,0 +1,15 @@
+/* עיצוב ברירת מחדל */
+.hbox {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-text-fill: #333333;  /* טקסט בצבע כהה */
+    -fx-font-size: 14px;
+}
+
+.checkbox {
+    -fx-background-color: transparent;
+    -fx-border-color: #cccccc;
+}

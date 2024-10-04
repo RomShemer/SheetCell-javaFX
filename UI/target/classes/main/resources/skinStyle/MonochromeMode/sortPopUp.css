@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-font-family: Arial, sans-serif;
+}
+
+.label {
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.combo-box {
+    -fx-border-color: #999;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-background-color: #e0e0e0;
+}
+
+.button {
+    -fx-background-color: #666;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+}
+
+.button:hover {
+    -fx-background-color: #555;
+}
+
+.button:pressed {
+    -fx-background-color: #444;
+}
+
+#cancelButton {
+    -fx-background-color: #b0b0b0;
+    -fx-text-fill: white;
+}
+
+#cancelButton:hover {
+    -fx-background-color: #a0a0a0;
+}
+
+#cancelButton:pressed {
+    -fx-background-color: #909090;
+}
+
+/* עיצוב לעיגול ההזזה */
+.circle {
+    -fx-background-color: #d1d1d1;
+    -fx-border-color: #999;
+    -fx-border-width: 1px;
+    -fx-background-radius: 13;
+    -fx-pref-width: 15px;
+    -fx-pref-height: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 2, 0.2, 1, 1);
+}
+
+.circle:selected {
+    -fx-background-color: #b0b0b0;
+    -fx-border-color: #888;
+    -fx-border-width: 1.5px;
+    -fx-translate-x: 20px;
+}

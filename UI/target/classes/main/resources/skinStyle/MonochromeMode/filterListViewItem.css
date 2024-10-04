@@ -1,0 +1,15 @@
+/* עיצוב מונוכרום */
+.hbox {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-text-fill: #000000;  /* טקסט שחור */
+    -fx-font-size: 14px;
+}
+
+.checkbox {
+    -fx-background-color: transparent;
+    -fx-border-color: #000000;
+}

@@ -1,0 +1,115 @@
+.root {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+    -fx-text-fill: black;
+}
+
+.grid-pane {
+    -fx-background-color: rgba(124, 124, 124, 0.9);  /* רקע כהה עם שקיפות */
+    -fx-border-color: #616161;      /* צבע גבול */
+    -fx-border-width: 2px;          /* עובי גבול */
+    -fx-border-radius: 5px;         /* פינות מעוגלות */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.3, 0, 2); /* אפקט צל */
+    -fx-pref-width: 100%;           /* רוחב מלא */
+    -fx-pref-height: 100%;          /* גובה מלא */
+}
+
+
+/* עיצוב כללי ל-Label */
+.label {
+    -fx-text-fill: #2c3e50; /* צבע טקסט */
+    -fx-font-weight: bold; /* טקסט מודגש */
+}
+
+
+/* עיצוב שדות הטקסט (TextField) */
+.text-field {
+    -fx-padding: 5;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #d1d1d1;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+}
+
+/* כאשר הסמן נמצא מעל שדה הטקסט */
+.text-field:hover {
+    -fx-background-color: #fff;
+    -fx-border-color: #7c8c9a;
+}
+
+/* כאשר שדה הטקסט בפוקוס */
+.text-field:focused {
+    -fx-border-color: #0080ff;
+}
+
+/* עיצוב הכותרת Label */
+.header-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a3d45;
+    -fx-alignment: center;
+    -fx-padding: 5;
+}
+
+/* עיצוב כפתור הפעולה */
+.button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 10;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* כאשר הסמן מעל הכפתור */
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* עיצוב תיבת הבחירה (ComboBox) */
+.combo-box {
+    -fx-padding: 3;
+    -fx-background-color: #555;
+    -fx-border-color: #555;
+    -fx-border-radius: 5;
+    -fx-font-size: 12px;
+    -fx-text-fill: #555;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #555; /* צבע רקע חדש */
+    -fx-control-inner-background: #555; /* צבע הרקע הפנימי */
+    -fx-border-color: #444; /* צבע גבול */
+    -fx-text-fill: black; /* צבע טקסט */
+}
+
+/* עיצוב של התאים בתפריט הנפתח של ComboBox */
+.combo-box-popup .list-cell {
+    -fx-text-fill: black; /* צבע טקסט חדש */
+    -fx-background-color: #555; /* רקע התא */
+}
+
+.combo-box-popup .list-cell:selected {
+    -fx-text-fill: black; /* צבע טקסט נבחר */
+    -fx-background-color: #ccc; /* רקע של התא הנבחר */
+}
+
+
+/* עיצוב הודעת הצלחה */
+.success-label {
+    -fx-text-fill: #28a745;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+    -fx-alignment: center;
+}
+
+/* עיצוב הודעת שגיאה */
+.error-label {
+    -fx-text-fill: #dc3545;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+    -fx-alignment: center;
+}

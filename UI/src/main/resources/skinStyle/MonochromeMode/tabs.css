@@ -1,0 +1,5 @@
+.tab-pane {
+    -fx-background-color: white;  /* רקע כהה */
+    -fx-background:  white;        /* רקע עבור תכולת ה-ScrollPane */
+    -fx-border-color: white;      /* צבע גבול */
+}

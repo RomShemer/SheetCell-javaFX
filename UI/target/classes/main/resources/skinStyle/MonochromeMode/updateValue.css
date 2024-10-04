@@ -1,0 +1,79 @@
+.label {
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-fill: #333; /* טקסט כהה */
+    -fx-alignment: center-left;
+}
+
+.text-field {
+    -fx-padding: 8;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #999;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.text-field:hover {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #777;
+}
+
+.text-field:focused {
+    -fx-border-color: #666;
+    -fx-background-color: #ffffff;
+}
+
+.combo-box {
+    -fx-padding: 5;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #999;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.combo-box:hover {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #777;
+}
+
+.button {
+    -fx-background-color: #555;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #444;
+}
+
+.success-label {
+    -fx-text-fill: #2ecc71; /* ירוק בהיר */
+}
+
+.error-label {
+    -fx-text-fill: #e74c3c; /* אדום */
+}
+
+.check-box {
+    -fx-text-fill: #333;
+}
+
+.check-box:hover {
+    -fx-text-fill: #555;
+}
+
+.label:hover {
+    -fx-text-fill: #666; /* טקסט כהה יותר */
+}
+
+.combo-box .list-view {
+    -fx-background-color: #f0f0f0;
+}

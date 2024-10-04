@@ -1,0 +1,79 @@
+.label {
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-text-fill: #e74c3c; /* טקסט אדום חי */
+    -fx-alignment: center-left;
+}
+
+.text-field {
+    -fx-padding: 8;
+    -fx-background-color: #fff9c4; /* רקע צהוב בהיר */
+    -fx-border-color: #f39c12;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #d35400; /* טקסט כתום כהה */
+}
+
+.text-field:hover {
+    -fx-background-color: #fff59d;
+    -fx-border-color: #e67e22; /* כתום כהה יותר */
+}
+
+.text-field:focused {
+    -fx-border-color: #f39c12; /* כתום בהיר */
+    -fx-background-color: #fff9c4;
+}
+
+.combo-box {
+    -fx-padding: 5;
+    -fx-background-color: #fff9c4;
+    -fx-border-color: #f39c12;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #d35400;
+}
+
+.combo-box:hover {
+    -fx-background-color: #fff59d;
+    -fx-border-color: #e67e22;
+}
+
+.button {
+    -fx-background-color: #e74c3c; /* רקע אדום */
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #c0392b;
+}
+
+.success-label {
+    -fx-text-fill: #2ecc71; /* ירוק חי */
+}
+
+.error-label {
+    -fx-text-fill: #e74c3c; /* אדום חי */
+}
+
+.check-box {
+    -fx-text-fill: #e74c3c;
+}
+
+.check-box:hover {
+    -fx-text-fill: #c0392b;
+}
+
+.label:hover {
+    -fx-text-fill: #e67e22; /* כתום חי */
+}
+
+.combo-box .list-view {
+    -fx-background-color: #fff59d;
+}

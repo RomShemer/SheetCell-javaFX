@@ -1,0 +1,26 @@
+/* הודעת שגיאה */
+.error-message {
+    -fx-background-color: #ff6f61; /* רקע כתום-אדום */
+    -fx-border-color: #ff4531; /* גבול אדום */
+    -fx-text-fill: #ffffff; /* טקסט לבן */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* הודעת הצלחה */
+.success-message {
+    -fx-background-color: #81c784; /* רקע ירוק */
+    -fx-border-color: #4caf50; /* גבול ירוק */
+    -fx-text-fill: #ffffff; /* טקסט לבן */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* הודעת מידע */
+.info-message {
+    -fx-background-color: #4fc3f7; /* רקע כחול */
+    -fx-border-color: #039be5; /* גבול כחול כהה */
+    -fx-text-fill: #ffffff; /* טקסט לבן */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+.scroll-pane {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+    -fx-background:  rgba(202, 202, 202, 0.9);        /* רקע עבור תכולת ה-ScrollPane */
+    -fx-border-color: rgba(158, 158, 158, 0.9);      /* צבע גבול */
+}
+
+.tool-bar {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+}
+
+
+.root {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+}
+
+.context-menu {
+    -fx-background-color: rgb(208, 250, 250); /* רקע טורקיז בהיר */
+    -fx-text-fill: black;             /* צבע הטקסט */
+    -fx-font-size: 12px;              /* גודל גופן */
+    -fx-border-color: darkblue;       /* צבע הגבול */
+    -fx-effect: dropshadow(gaussian, rgb(121, 177, 186), 20, 0.2, 2, 2); /* מוסיף צל */
+    -fx-border-width: 2px;            /* רוחב הגבול */
+    -fx-padding: 10px;                /* ריווח פנימי */
+    -fx-background-radius: 5px;       /* פינות מעוגלות */
+    -fx-border-radius: 5px;           /* פינות מעוגלות לגבול */
+}
+
+.context-menu .menu-item {
+    -fx-text-fill: black;             /* צבע הטקסט */
+    -fx-font-size: 12px;              /* גודל גופן */
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: lightblue;  /* צבע רקע חדש בזמן ריחוף */
+}

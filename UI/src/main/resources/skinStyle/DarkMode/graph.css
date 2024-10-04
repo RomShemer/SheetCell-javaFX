@@ -1,0 +1,81 @@
+/* צבע עבור ברירת מחדל של הסדרות */
+.default-color0.chart-bar,
+.default-color0.chart-line-symbol,
+.default-color0.chart-pie,
+.default-color0.chart-symbol {
+    -fx-background-color: green; /* צבע עבור סדרה 1 */
+}
+
+.default-color1.chart-bar,
+.default-color1.chart-line-symbol,
+.default-color1.chart-pie,
+.default-color1.chart-symbol {
+    -fx-background-color: red; /* צבע עבור NaN ערכים */
+}
+
+/* הגדרות עבור המקרא (Legend) */
+.chart-legend-item-symbol.default-color0 {
+    -fx-background-color: green; /* צבע עבור סדרה 1 ב-Legend */
+}
+
+.chart-legend-item-symbol.default-color1 {
+    -fx-background-color: red; /* צבע עבור NaN ערכים ב-Legend */
+}
+
+/* עיצוב כללי ל-Legend */
+.chart-legend-item {
+    -fx-font-size: 14px; /* גודל גופן במקרא */
+    -fx-font-weight: bold; /* עובי גופן במקרא */
+    -fx-padding: 5px; /* ריווח פנימי במקרא */
+}
+
+.chart-legend {
+    -fx-background-color: #f9f9f9; /* צבע רקע למקרא */
+    -fx-border-color: #ccc; /* צבע גבול למקרא */
+    -fx-border-width: 1px; /* עובי גבול למקרא */
+    -fx-padding: 10px; /* ריווח פנימי */
+}
+
+/* עיצוב הציר האופקי (X Axis) */
+.axis-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* עיצוב הכיתוב מתחת ל-bars (ממורכז עבור BarChart ו-ScatterChart) */
+.category-axis .axis-tick-mark {
+    -fx-alignment: center; /* ממרכז את הכיתוב */
+}
+
+/* צבעים עבור PieChart */
+.default-color0.chart-pie {
+    -fx-pie-color: green; /* פרוסה 1 */
+}
+
+.default-color1.chart-pie {
+    -fx-pie-color: red; /* פרוסה 2 */
+}
+
+/* עיצוב עבור קווים ב-LineChart */
+.default-color0.chart-series-line {
+    -fx-stroke: green; /* קו ירוק */
+}
+
+.default-color1.chart-series-line {
+    -fx-stroke: red; /* קו אדום */
+}
+
+/* עיצוב עבור נקודות ב-ScatterChart */
+.default-color0.chart-symbol {
+    -fx-background-color: green; /* נקודות ירוקות */
+}
+
+.default-color1.chart-symbol {
+    -fx-background-color: red; /* נקודות אדומות */
+}
+
+.tab-pane {
+    -fx-background-color: rgba(124, 124, 124, 0.9);  /* רקע כהה */
+    -fx-background:  rgba(124, 124, 124, 0.9);
+    -fx-border-color: #616161;      /* צבע גבול */
+}

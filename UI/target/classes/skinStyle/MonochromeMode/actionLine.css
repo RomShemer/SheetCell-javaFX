@@ -1,0 +1,76 @@
+.root {
+    -fx-padding: 8;
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* כותרות */
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-wrap-text: true;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    -fx-border-radius: 4;
+    -fx-padding: 2 3 2 3;
+    -fx-font-size: 12px;
+}
+
+/* ComboBox בעת Hover */
+.combo-box:hover {
+    -fx-border-color: #333333;
+}
+
+/* TextField */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #000000;
+    -fx-border-radius: 4;
+    -fx-padding: 4 8;
+    -fx-font-size: 12px;
+}
+
+/* TextField בעת פוקוס */
+.text-field:focused {
+    -fx-border-color: #000000;
+}
+
+/* כפתור */
+.button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-border-radius: 4;
+    -fx-padding: 4 16;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* כפתור בעת Hover */
+.button:hover {
+    -fx-background-color: #333333;
+}
+
+/* Progress Bar */
+.progress-bar {
+    -fx-accent: #000000;
+    -fx-background-color: #ffffff;
+}
+
+/* חיווי שגיאה */
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+/* חיווי הצלחה */
+.success-label {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}

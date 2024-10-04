@@ -1,0 +1,62 @@
+/* עיצוב כללי ל-VBox */
+.vbox {
+    -fx-background-color: #e5e5e5;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0.5, 0, 0);
+}
+
+/* עיצוב MenuButton */
+.menu-button {
+    -fx-font-size: 12px;
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #333333;
+    -fx-padding: 2;
+    -fx-border-radius: 5;
+    -fx-border-color: #c0c0c0;
+}
+
+.menu-item {
+    -fx-font-size: 12px;
+    -fx-padding: 5;
+}
+
+/* עיצוב Label */
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #555555;
+    -fx-font-size: 13px;
+}
+
+/* עיצוב TextField */
+.text-field {
+    -fx-font-size: 12px;
+    -fx-padding: 8;
+    -fx-background-color: #f9f9f9;
+    -fx-border-radius: 5;
+    -fx-border-color: #cccccc;
+    -fx-text-fill: #666666;
+}
+
+/* עיצוב ListView */
+.list-view {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #d0d0d0;
+}
+
+/* עיצוב הכפתורים */
+.button {
+    -fx-font-size: 13px;
+    -fx-background-color: #b0b0b0;
+    -fx-text-fill: #333333;
+}
+
+.button:hover {
+    -fx-background-color: #999999;
+}
+
+.button:pressed {
+    -fx-background-color: #808080;
+}

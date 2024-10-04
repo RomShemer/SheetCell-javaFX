@@ -1,0 +1,77 @@
+/* עיצוב כללי */
+.root {
+    -fx-padding: 8; /* ריווח פנימי קטן יותר */
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* כותרות */
+.label {
+    -fx-font-size: 12px; /* גודל טקסט קטן יותר */
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-wrap-text: true;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4; /* פינות מעוגלות מעט */
+    -fx-padding: 2 3 2 3; /* ריווח פנימי קטן יותר */
+    -fx-font-size: 12px; /* גודל גופן קטן יותר */
+}
+
+/* ComboBox בעת Hover */
+.combo-box:hover {
+    -fx-border-color: #888;
+}
+
+/* TextField */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4;
+    -fx-padding: 4 8;
+    -fx-font-size: 12px; /* גודל גופן קטן יותר */
+}
+
+/* TextField בעת פוקוס */
+.text-field:focused {
+    -fx-border-color: #0078d7;
+}
+
+/* כפתור */
+.button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-border-radius: 4;
+    -fx-padding: 4 16; /* ריווח פנימי קטן יותר */
+    -fx-font-size: 12px; /* גודל גופן קטן יותר */
+    -fx-font-weight: bold;
+}
+
+/* כפתור בעת Hover */
+.button:hover {
+    -fx-background-color: #005fa3;
+}
+
+/* Progress Bar */
+.progress-bar {
+    -fx-accent: #0078d7;
+    -fx-background-color: #f4f4f4;
+}
+
+/* חיווי שגיאה */
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px; /* גודל גופן קטן יותר */
+}
+
+/* חיווי הצלחה */
+.success-label {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px; /* גודל גופן קטן יותר */
+}

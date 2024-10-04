@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.graphs.GraphsController">
+   <content>
+      <VBox alignment="CENTER" spacing="9.0">
+          <!-- טווח נתונים -->
+          <HBox alignment="CENTER_LEFT" spacing="12.0">
+              <Label text="X axis Range:" />
+              <TextField promptText="A1:B9" fx:id="xAxisRange" />
+              <Button fx:id="selectXRange" text="Select" />
+          </HBox>
+         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" spacing="12.0">
+            <children>
+               <Label text="Y axis Range:" />
+               <TextField fx:id="yAxisRange" promptText="A1:B9" />
+               <Button fx:id="selectYRange" text="Select" />
+            </children>
+         </HBox>
+         <Separator prefWidth="200.0" />
+      
+          <!-- בחירת סוג גרף -->
+          <VBox alignment="CENTER_LEFT" spacing="10">
+              <Label text="Graph type:" />
+              <HBox alignment="CENTER" spacing="9.0">
+                  <VBox alignment="CENTER">
+                  <Button fx:id="barChartButton" mnemonicParsing="false" onAction="#handleBarChartAction">
+                     <graphic>
+                            <ImageView fx:id="barImageViewer" fitHeight="50" fitWidth="50.0">
+                                <Image url="@../../../../../../../Downloads/bar2.png" />
+                            </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label text="Bar Chart" />
+                  </VBox>
+                  <VBox alignment="CENTER">
+                  <Button fx:id="lineChartButton" mnemonicParsing="false" onAction="#handleLineChartAction">
+                     <graphic>
+                            <ImageView fx:id="lineImageViewer" fitHeight="50" fitWidth="50">
+                                <Image url="@../../../../../../../Downloads/liner%20dot.png" />
+                            </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label text="Line Chart" />
+                  </VBox>
+               <VBox alignment="CENTER" layoutX="194.0" layoutY="10.0">
+                  <children>
+                     <Button fx:id="scatterChartButton" mnemonicParsing="false" onAction="#handleScatterChartAction">
+                        <graphic>
+                           <ImageView fx:id="scatterImageViewer" fitHeight="50.0" fitWidth="50.0">
+                              <image>
+                                 <Image url="@../../../../../../../Downloads/Scatter%20Chart.jpg" />
+                              </image>
+                           </ImageView>
+                        </graphic>
+                     </Button>
+                     <Label text="Scatter Chart" />
+                  </children>
+               </VBox>
+               <VBox alignment="CENTER" layoutX="164.0" layoutY="10.0">
+                  <children>
+                     <Button fx:id="pieChartButton" mnemonicParsing="false" onAction="#handlePieChartAction">
+                        <graphic>
+                           <ImageView fx:id="pieImageViewer" fitHeight="50.0" fitWidth="50.0">
+                              <image>
+                                 <Image url="@../../../../../../../Downloads/pie.png" />
+                              </image>
+                           </ImageView>
+                        </graphic>
+                     </Button>
+                     <Label text="Pie Chart" />
+                  </children>
+               </VBox>
+                  <!-- הוספת אפשרויות נוספות לגרפים לפי הצורך -->
+              </HBox>
+          </VBox>
+         <Separator prefWidth="200.0" />
+      
+          <!-- כפתורי יצירה וביטול -->
+          <HBox alignment="CENTER" spacing="10">
+              <Button fx:id="cancelButton" text="Cancel" />
+              <Button fx:id="createGraphButton" text="Create" />
+          </HBox>
+      </VBox>
+   </content>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</ScrollPane>

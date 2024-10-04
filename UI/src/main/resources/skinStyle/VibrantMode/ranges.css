@@ -1,0 +1,120 @@
+/* General ScrollPane Styling */
+.scroll-pane {
+    -fx-background-color: #ffe0b2; /* רקע כתום בהיר */
+}
+
+/* VBox and HBox Padding */
+.vbox, .hbox {
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+/* Buttons */
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8 15;
+    -fx-wrap-text: true;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-background-color: #e40b55; /* ורוד בוהק */
+}
+
+.button:hover {
+    -fx-background-color: #f06292; /* ורוד כהה */
+}
+
+/* Add Button - Green */
+.green-button {
+    -fx-background-color: #66bb6a; /* ירוק בהיר */
+}
+
+.green-button:hover {
+    -fx-background-color: #4caf50;
+}
+
+/* Delete Button - Red */
+.red-button {
+    -fx-background-color: #f3522e;  /* Red background */
+}
+
+/* Delete Button - Red */
+.red-stop-button {
+    -fx-background-color: rgba(248, 90, 56, 0.91);  /* Red background */
+    -fx-font-size: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 3;
+}
+
+.red-button:hover {
+    -fx-background-color: #ff3c22;
+}
+
+/* View Button - Blue */
+.blue-button {
+    -fx-background-color: #42a5f5; /* כחול בוהק */
+}
+
+.blue-button:hover {
+    -fx-background-color: #1e88e5;
+}
+
+/* GridPane for TableView and Details */
+.grid-pane {
+    -fx-padding: 20;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ff7043; /* כתום כהה */
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #a61949; /* ורוד */
+}
+
+/* Text Fields */
+.text-field {
+    -fx-border-color: #ff7043;
+    -fx-background-color: #ffe0b2;
+    -fx-text-fill: #333333;
+}
+
+.text-field:focused {
+    -fx-border-color: #ff4081; /* ורוד בוהק */
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ff7043;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #ffe0b2;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #ffccbc;
+}
+
+/* Button inside the Details Pane */
+#rangeDetailsPane .button {
+    -fx-background-color: #ff7043;
+}
+
+#rangeDetailsPane .button:hover {
+    -fx-background-color: #ff5722;
+}

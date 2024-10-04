@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="UI" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3bd41db-f7f7-4b45-a248-cff50c102308" name="Changes" comment="+Graphs opens in tab + animation -&gt; final" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RomShemer&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RomShemer/sheetCell2.git&quot;,
+    &quot;accountId&quot;: &quot;0254f9ad-d421-4978-8c83-6bc608c149e2&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2leEOZxe1W51XozXO0Q2uhshwRS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CommandsController.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MainController.executor": "Run",
+    "Application.SheetController.executor": "Debug",
+    "Application.SubTolBarTopController.executor": "Debug",
+    "Application.TopBarController.executor": "Run",
+    "Application.UpdateValueController.executor": "Run",
+    "Maven.Engine [clean,install].executor": "Run",
+    "Maven.UI [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/User/IdeaProjects/java/sheetCell2/UI/src/test/java",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/java/הגשות/sheetcell2/sheetCell2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/java/sheetCell2/UI/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\skinStyle\VibrantMode" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\skinStyle\MonochromeMode" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\skinStyle\DarkMode" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\skinStyle\Default" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\skinStyle" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\default" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\skinStyle\darkMode" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\" />
+      <recent name="C:\Users\User\IdeaProjects\java\sheetCell2\UI\src\main\resources\skinStyle\default" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main" />
+      <recent name="" />
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainController">
+    <configuration name="CommandsController" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.CommandsController" />
+      <module name="UI" />
+      <option name="VM_PARAMETERS" value="--module-path $ProjectFileDir$/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.sortAndFilter.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="UI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainController" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.MainController" />
+      <module name="UI" />
+      <option name="VM_PARAMETERS" value="--module-path $ProjectFileDir$/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.CommandsController" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SheetController" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.sheet.SheetController" />
+      <module name="UI" />
+      <option name="VM_PARAMETERS" value="--module-path $ProjectFileDir$/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.CommandsController" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubTolBarTopController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.topTools.SubTolBarTopController" />
+      <module name="UI" />
+      <option name="VM_PARAMETERS" value="--module-path $ProjectFileDir$/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopBarController" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.topTools.TopBarController" />
+      <module name="UI" />
+      <option name="VM_PARAMETERS" value="--module-path $ProjectFileDir$/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateValueController" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.topTools.UpdateValueController" />
+      <module name="UI" />
+      <option name="VM_PARAMETERS" value="--module-path $ProjectFileDir$/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SubTolBarTopController" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3bd41db-f7f7-4b45-a248-cff50c102308" name="Changes" comment="" />
+      <created>1725532113614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725532113614</updated>
+      <workItem from="1725532114669" duration="95025000" />
+      <workItem from="1726127858876" duration="250898000" />
+      <workItem from="1727083137378" duration="267580000" />
+      <workItem from="1727576609511" duration="9000" />
+      <workItem from="1727576629840" duration="50000" />
+      <workItem from="1727577327073" duration="52755000" />
+    </task>
+    <task id="LOCAL-00001" summary="tool bar + ExpressionTemplate in javaFX">
+      <option name="closed" value="true" />
+      <created>1725711051311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725711051311</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed final expression field to be bind with all args final expression field.">
+      <option name="closed" value="true" />
+      <created>1725726433186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725726433186</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CellID comboBox in SubTolBarTopController effects CellID comboBox in UpdateValueController">
+      <option name="closed" value="true" />
+      <created>1725775568348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725775568348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update Original value">
+      <option name="closed" value="true" />
+      <created>1725800464098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725800464098</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix abs operation">
+      <option name="closed" value="true" />
+      <created>1725814174859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725814174859</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Sheet gridpane + css">
+      <option name="closed" value="true" />
+      <created>1725911098289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725911098289</updated>
+    </task>
+    <task id="LOCAL-00007" summary="AppController + version fixed">
+      <option name="closed" value="true" />
+      <created>1726173004666</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726173004666</updated>
+    </task>
+    <task id="LOCAL-00008" summary="highlight influencing on and depends on cells">
+      <option name="closed" value="true" />
+      <created>1726230120736</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726230120736</updated>
+    </task>
+    <task id="LOCAL-00009" summary="start of commands without logic">
+      <option name="closed" value="true" />
+      <created>1726238184241</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726238184241</updated>
+    </task>
+    <task id="LOCAL-00010" summary="column resize works with slider command">
+      <option name="closed" value="true" />
+      <created>1726331184852</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726331184852</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed initialize state of the width slider + added rows width slider care">
+      <option name="closed" value="true" />
+      <created>1726336562949</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726336562949</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Text alignment working with saving style history in StylingPerColumn class">
+      <option name="closed" value="true" />
+      <created>1726441421430</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726441421430</updated>
+    </task>
+    <task id="LOCAL-00013" summary="colorPiker for text and background working">
+      <option name="closed" value="true" />
+      <created>1726493302936</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726493302936</updated>
+    </task>
+    <task id="LOCAL-00014" summary="colorPiker for text and background working">
+      <option name="closed" value="true" />
+      <created>1726563736421</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726563736421</updated>
+    </task>
+    <task id="LOCAL-00015" summary="accordion commands styling">
+      <option name="closed" value="true" />
+      <created>1726563906861</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726563906861</updated>
+    </task>
+    <task id="LOCAL-00016" summary="accordion commands styling seperated into 3 option: column, row and cell">
+      <option name="closed" value="true" />
+      <created>1726569628931</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726569628931</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Start Of Ranges">
+      <option name="closed" value="true" />
+      <created>1726652078977</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726652078977</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Range Validator and create range operation + new jaxb classes with schemaV2 + update the xmlLoader to handle ranges">
+      <option name="closed" value="true" />
+      <created>1726693732067</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726693732067</updated>
+    </task>
+    <task id="LOCAL-00019" summary="all new operation + range depended on and influenced cell update in the relevant lists">
+      <option name="closed" value="true" />
+      <created>1726828531372</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726828531372</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add new range working with dragging on the sheet and with manually adding">
+      <option name="closed" value="true" />
+      <created>1727026805769</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727026805769</updated>
+    </task>
+    <task id="LOCAL-00021" summary="delete range">
+      <option name="closed" value="true" />
+      <created>1727095878393</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1727095878393</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sort sheet worked partly">
+      <option name="closed" value="true" />
+      <created>1727364257415</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727364257415</updated>
+    </task>
+    <task id="LOCAL-00023" summary="sort sheet worked partly">
+      <option name="closed" value="true" />
+      <created>1727394040069</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727394040069</updated>
+    </task>
+    <task id="LOCAL-00024" summary="+filter+ animations + start of skin -&gt; added css for different styling &#10;# found beg when try to update a value of cell with operation (-) or (+)&#10;throw Error abut &quot;Sum function&quot; =&gt; todo">
+      <option name="closed" value="true" />
+      <created>1727484201836</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1727484201836</updated>
+    </task>
+    <task id="LOCAL-00025" summary="backup">
+      <option name="closed" value="true" />
+      <created>1727556234766</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1727556234766</updated>
+    </task>
+    <task id="LOCAL-00026" summary="final for submission">
+      <option name="closed" value="true" />
+      <created>1727571139311</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727571139311</updated>
+    </task>
+    <task id="LOCAL-00027" summary="final for submission">
+      <option name="closed" value="true" />
+      <created>1727576653438</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727576653438</updated>
+    </task>
+    <task id="LOCAL-00028" summary="+Graphs">
+      <option name="closed" value="true" />
+      <created>1727955937377</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727955937377</updated>
+    </task>
+    <task id="LOCAL-00029" summary="+Graphs opens in tab">
+      <option name="closed" value="true" />
+      <created>1728036787636</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728036787636</updated>
+    </task>
+    <task id="LOCAL-00030" summary="+Graphs opens in tab + animation">
+      <option name="closed" value="true" />
+      <created>1728043299725</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1728043299725</updated>
+    </task>
+    <task id="LOCAL-00031" summary="+Graphs opens in tab + animation -&gt; final">
+      <option name="closed" value="true" />
+      <created>1728053589587</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728053589589</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update Original value" />
+    <MESSAGE value="fix abs operation" />
+    <MESSAGE value="Sheet gridpane + css" />
+    <MESSAGE value="AppController + version fixed" />
+    <MESSAGE value="highlight influencing on and depends on cells" />
+    <MESSAGE value="start of commands without logic" />
+    <MESSAGE value="column resize works with slider command" />
+    <MESSAGE value="fixed initialize state of the width slider + added rows width slider care" />
+    <MESSAGE value="Text alignment working with saving style history in StylingPerColumn class" />
+    <MESSAGE value="colorPiker for text and background working" />
+    <MESSAGE value="accordion commands styling" />
+    <MESSAGE value="accordion commands styling seperated into 3 option: column, row and cell" />
+    <MESSAGE value="Start Of Ranges" />
+    <MESSAGE value="Range Validator and create range operation + new jaxb classes with schemaV2 + update the xmlLoader to handle ranges" />
+    <MESSAGE value="all new operation + range depended on and influenced cell update in the relevant lists" />
+    <MESSAGE value="add new range working with dragging on the sheet and with manually adding" />
+    <MESSAGE value="delete range" />
+    <MESSAGE value="sort sheet worked partly" />
+    <MESSAGE value="+filter+ animations + start of skin -&gt; added css for different styling &#10;# found beg when try to update a value of cell with operation (-) or (+)&#10;throw Error abut &quot;Sum function&quot; =&gt; todo" />
+    <MESSAGE value="backup" />
+    <MESSAGE value="final for submission" />
+    <MESSAGE value="+Graphs" />
+    <MESSAGE value="+Graphs opens in tab" />
+    <MESSAGE value="+Graphs opens in tab + animation" />
+    <MESSAGE value="+Graphs opens in tab + animation -&gt; final" />
+    <option name="LAST_COMMIT_MESSAGE" value="+Graphs opens in tab + animation -&gt; final" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/topTools/ExpressionTemplateController.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/operation/Abs.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/topTools/SubTolBarTopController.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/topTools/SubTolBarTopController.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/styling/StylingPerColumn.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/commands/CommandController.java</url>
+          <line>372</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/commands/CommandController.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/topTools/SubTolBarTopController.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/ranges/RangesController.java</url>
+          <line>253</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>247</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/ranges/AddRangeController.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/menu/SheetMenuImpl.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>603</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>674</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>488</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>492</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>571</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/commands/CommandController.java</url>
+          <line>414</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>443</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/commands/CommandController.java</url>
+          <line>411</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>507</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>249</line>
+          <properties>
+            <option name="lambda-ordinal" value="1" />
+          </properties>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>501</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>504</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>485</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/impl/SheetImpl.java</url>
+          <line>429</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/impl/SheetImpl.java</url>
+          <line>414</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/main/UIManager.java</url>
+          <line>278</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>731</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>740</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>383</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/menu/SheetMenuImpl.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SubSortPopUpController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>456</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/impl/SheetImpl.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/impl/SheetImpl.java</url>
+          <line>416</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SubSortPopUpController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>461</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>326</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/filter/FilterPopUpController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/impl/SheetImpl.java</url>
+          <line>454</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/ranges/RangesController.java</url>
+          <line>273</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/impl/SheetImpl.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/version/VersionHistoryManager.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>505</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/operation/Sum.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/UnaryExpression.java</url>
+          <line>26</line>
+          <properties class="logicStructure.expression.impl.UnaryExpression" method="evaluate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/parser/Validator.java</url>
+          <line>59</line>
+          <properties class="logicStructure.expression.parser.Validator" method="isAllReceivedTypeMatch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/UnaryExpression.java</url>
+          <line>15</line>
+          <properties class="logicStructure.expression.impl.UnaryExpression" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/operation/Average.java</url>
+          <line>35</line>
+          <properties class="logicStructure.expression.impl.operation.Average" method="evaluate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/operation/If.java</url>
+          <line>14</line>
+          <properties class="logicStructure.expression.impl.operation.If" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/ranges/AddRangeController.java</url>
+          <line>83</line>
+          <properties class="controller.ranges.AddRangeController" method="onSkinChange">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/ranges/AddRangeController.java</url>
+          <line>105</line>
+          <properties class="controller.ranges.AddRangeController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/commands/CommandController.java</url>
+          <line>449</line>
+          <properties class="controller.commands.CommandController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>382</line>
+          <properties class="controller.sheet.SheetController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/commands/CommandController.java</url>
+          <line>395</line>
+          <properties class="controller.commands.CommandController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sheet/SheetController.java</url>
+          <line>332</line>
+          <properties class="controller.sheet.SheetController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>123</line>
+          <properties class="controller.sortAndFilter.SortFilterController" method="setMainController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SubSortPopUpController.java</url>
+          <line>86</line>
+          <properties class="controller.sortAndFilter.sort.SubSortPopUpController">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>429</line>
+          <properties class="controller.AppController" method="setOnCellSelectionListener">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/menu/SheetMenuImpl.java</url>
+          <line>66</line>
+          <properties class="menu.SheetMenuImpl" method="isValidVersionNum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>496</line>
+          <properties class="controller.sortAndFilter.SortFilterController" method="selectSortedColumnAction">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>224</line>
+          <properties class="controller.sortAndFilter.sort.SortPopUpController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>127</line>
+          <properties class="controller.sortAndFilter.sort.SortPopUpController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/impl/SheetImpl.java</url>
+          <line>350</line>
+          <properties class="logicStructure.sheet.impl.SheetImpl" method="sortRows">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/sort/SortPopUpController.java</url>
+          <line>183</line>
+          <properties class="controller.sortAndFilter.sort.SortPopUpController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>378</line>
+          <properties class="controller.sortAndFilter.SortFilterController" method="showFilterPopUp">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>545</line>
+          <properties class="controller.AppController" method="replaceFilterGridPaneInTab">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/operation/Minus.java</url>
+          <line>17</line>
+          <properties class="logicStructure.expression.impl.operation.Minus" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/operation/Minus.java</url>
+          <line>22</line>
+          <properties class="logicStructure.expression.impl.operation.Minus" method="evaluate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/expression/impl/BinaryExpression.java</url>
+          <line>50</line>
+          <properties class="logicStructure.expression.impl.BinaryExpression" method="validateParser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>224</line>
+          <properties class="controller.sortAndFilter.SortFilterController" method="addFilterValuesToToolTip">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/sortAndFilter/SortFilterController.java</url>
+          <line>202</line>
+          <properties class="controller.sortAndFilter.SortFilterController" method="addFilterValuesToTextField">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/Engine/src/logicStructure/sheet/cell/impl/CellImpl.java</url>
+          <line>143</line>
+          <properties class="logicStructure.sheet.cell.impl.CellImpl" method="setOriginalValue">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/topTools/SubTolBarTopController.java</url>
+          <line>160</line>
+          <properties class="controller.topTools.SubTolBarTopController" method="handleVersionSelection">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>338</line>
+          <properties class="controller.AppController" method="showStageInNewTab">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/graphs/GraphsController.java</url>
+          <line>245</line>
+          <properties class="controller.graphs.GraphsController" method="createGraph">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/UI/src/controller/AppController.java</url>
+          <line>284</line>
+          <properties class="controller.AppController" method="showSheetAcoordingToVersionInTab">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+        <PinnedItemInfo parentTag="logicStructure.expression.impl.operation.Average" memberName="args" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

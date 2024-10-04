@@ -1,0 +1,26 @@
+/* הודעת שגיאה */
+.error-message {
+    -fx-background-color: #f8d7da; /* רקע אדום בהיר */
+    -fx-border-color: #f5c6cb; /* גבול אדום בהיר */
+    -fx-text-fill: #721c24; /* טקסט אדום כהה */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* הודעת הצלחה */
+.success-message {
+    -fx-background-color: #d4edda; /* רקע ירוק בהיר */
+    -fx-border-color: #c3e6cb; /* גבול ירוק בהיר */
+    -fx-text-fill: #155724; /* טקסט ירוק כהה */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* הודעת מידע */
+.info-message {
+    -fx-background-color: #d1ecf1; /* רקע כחול בהיר */
+    -fx-border-color: #bee5eb; /* גבול כחול בהיר */
+    -fx-text-fill: #0c5460; /* טקסט כחול כהה */
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}

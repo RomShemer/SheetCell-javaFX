@@ -1,0 +1,83 @@
+.scroll-pane {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+    -fx-background:  rgba(202, 202, 202, 0.9);        /* רקע עבור תכולת ה-ScrollPane */
+    -fx-border-color: rgba(158, 158, 158, 0.9);      /* צבע גבול */
+    -fx-border-width: 0.5;
+}
+
+.tool-bar {
+    -fx-background-color: rgba(202, 202, 202, 0.9);  /* צבע רקע אפור */
+}
+
+/* כותרות */
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black; /* טקסט בהיר על רקע כהה */
+    -fx-wrap-text: true;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #bababa;
+    -fx-border-color: #838383;
+    -fx-border-radius: 4;
+    -fx-padding: 1 2 1 2;
+    -fx-font-size: 12px;
+}
+
+/* ComboBox בעת Hover */
+.combo-box:hover {
+    -fx-border-color: #888;
+}
+
+/* TextField */
+.text-field {
+    -fx-background-color: #dddddd;
+    -fx-border-color: #b6b6b6;
+    -fx-border-radius: 4;
+    -fx-padding: 4 8;
+    -fx-font-size: 12px;
+    -fx-text-fill:black; /* טקסט לבן */
+}
+
+/* TextField בעת פוקוס */
+.text-field:focused {
+    -fx-border-color: #0078d7;
+}
+
+/* כפתור */
+.button {
+    -fx-background-color: #1d038f;
+    -fx-text-fill: white;
+    -fx-border-radius: 4;
+    -fx-padding: 4 16;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* כפתור בעת Hover */
+.button:hover {
+    -fx-background-color: #27005e;
+}
+
+/* Progress Bar */
+.progress-bar {
+    -fx-accent: #1a73e8;
+    -fx-background-color: #2b2b2b;
+}
+
+/* חיווי שגיאה */
+.error-label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+/* חיווי הצלחה */
+.success-label {
+    -fx-text-fill: #115511;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
